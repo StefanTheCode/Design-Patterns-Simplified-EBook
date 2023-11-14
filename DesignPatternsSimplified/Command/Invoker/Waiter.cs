@@ -1,4 +1,6 @@
-﻿namespace Command;
+﻿using Command.Command;
+
+namespace Command.Invoker;
 
 // Invoker class representing the waiter
 public class Waiter

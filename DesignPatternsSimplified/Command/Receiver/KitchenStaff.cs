@@ -1,4 +1,4 @@
-﻿namespace Command;
+﻿namespace Command.Receiver;
 
 // Receiver class representing the kitchen staff
 public class KitchenStaff

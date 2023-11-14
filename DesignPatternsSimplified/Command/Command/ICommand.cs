@@ -1,4 +1,4 @@
-﻿namespace Command;
+﻿namespace Command.Command;
 
 // Command interface representing an order
 public interface ICommand

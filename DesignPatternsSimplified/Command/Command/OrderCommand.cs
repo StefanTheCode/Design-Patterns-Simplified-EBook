@@ -1,4 +1,6 @@
-﻿namespace Command;
+﻿using Command.Receiver;
+
+namespace Command.Command;
 
 // Concrete command class representing a specific order
 public class OrderCommand : ICommand
