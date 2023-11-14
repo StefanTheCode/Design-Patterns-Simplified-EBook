@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{37038953-9FBD-431E-9A7C-189B827EF591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F138290F-C9C1-4C8E-A2FB-461190876873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{37038953-9FBD-431E-9A7C-189B827EF591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37038953-9FBD-431E-9A7C-189B827EF591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37038953-9FBD-431E-9A7C-189B827EF591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F138290F-C9C1-4C8E-A2FB-461190876873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F138290F-C9C1-4C8E-A2FB-461190876873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F138290F-C9C1-4C8E-A2FB-461190876873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F138290F-C9C1-4C8E-A2FB-461190876873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
