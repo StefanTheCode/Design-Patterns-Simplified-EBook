@@ -1,5 +1,5 @@
-﻿using Strategy.Strategies;
-using Strategy;
+﻿using Strategy;
+using Strategy.Strategies;
 
 // Create a travel planner
 TravelPlanner travelPlanner = new TravelPlanner();

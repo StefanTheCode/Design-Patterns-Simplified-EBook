@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{10C422CC-8D9B-4798-AF97-A57D5AE8567B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{10C422CC-8D9B-4798-AF97-A57D5AE8567B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{7A15CD75-C754-43A2-A392-01FC46D4DA7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{7A15CD75-C754-43A2-A392-01FC46D4DA7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{37038953-9FBD-431E-9A7C-189B827EF591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{37038953-9FBD-431E-9A7C-189B827EF591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{F138290F-C9C1-4C8E-A2FB-461190876873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{F138290F-C9C1-4C8E-A2FB-461190876873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{D25BEBA9-7E20-48DE-A8ED-B94C7AAAD7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{D25BEBA9-7E20-48DE-A8ED-B94C7AAAD7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{C6B43B1B-3BDF-4839-AE11-D322E90203C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{C6B43B1B-3BDF-4839-AE11-D322E90203C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{6897271D-3891-46A5-B305-821773C54D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{6897271D-3891-46A5-B305-821773C54D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{3D98B371-304E-4156-AE0A-02C2358A07B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{3D98B371-304E-4156-AE0A-02C2358A07B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{42432E56-1329-43E5-B27D-EC63018D182A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{CD79D134-3979-425E-AC94-3AC7B5242602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{3D98B371-304E-4156-AE0A-02C2358A07B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D98B371-304E-4156-AE0A-02C2358A07B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D98B371-304E-4156-AE0A-02C2358A07B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42432E56-1329-43E5-B27D-EC63018D182A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42432E56-1329-43E5-B27D-EC63018D182A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42432E56-1329-43E5-B27D-EC63018D182A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42432E56-1329-43E5-B27D-EC63018D182A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD79D134-3979-425E-AC94-3AC7B5242602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD79D134-3979-425E-AC94-3AC7B5242602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD79D134-3979-425E-AC94-3AC7B5242602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD79D134-3979-425E-AC94-3AC7B5242602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

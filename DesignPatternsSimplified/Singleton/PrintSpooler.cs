@@ -19,7 +19,7 @@ public class PrintSpooler
         return instance;
     }
 
-    public  void Print(string document)
+    public void Print(string document)
     {
         Console.WriteLine($"Printing: {document}");
     }

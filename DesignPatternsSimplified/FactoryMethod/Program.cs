@@ -1,5 +1,5 @@
-﻿using FactoryMethod.Factory;
-using FactoryMethod;
+﻿using FactoryMethod;
+using FactoryMethod.Factory;
 
 // Car Dealership
 CarFactory dealership = new BMWFactory(); // Change factory to create different car brands
